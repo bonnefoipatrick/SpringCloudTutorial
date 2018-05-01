@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloudConfig" />
         <module name="SpringCloudTutorial" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpringCloudConfig" target="1.8" />
       <module name="SpringCloudTutorial" target="1.8" />
     </bytecodeTargetLevel>
   </component>
